@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  width: 70%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+
+}
+
+.card {
+  border: 1px black solid;
+  text-align: center;
+}
+
+.card img {
+  height: 200px;
+  width: auto;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  text-align: center;
+}
